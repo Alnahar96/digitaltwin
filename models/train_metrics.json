@@ -1,0 +1,67 @@
+{
+  "roc_auc": 0.9624018085495069,
+  "confusion_matrix": [
+    [
+      1928,
+      4
+    ],
+    [
+      38,
+      30
+    ]
+  ],
+  "report": {
+    "0": {
+      "precision": 0.9806714140386572,
+      "recall": 0.9979296066252588,
+      "f1-score": 0.9892252437147255,
+      "support": 1932.0
+    },
+    "1": {
+      "precision": 0.8823529411764706,
+      "recall": 0.4411764705882353,
+      "f1-score": 0.5882352941176471,
+      "support": 68.0
+    },
+    "accuracy": 0.979,
+    "macro avg": {
+      "precision": 0.9315121776075639,
+      "recall": 0.719553038606747,
+      "f1-score": 0.7887302689161864,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.9773285859613428,
+      "recall": 0.979,
+      "f1-score": 0.9755915854284248,
+      "support": 2000.0
+    }
+  },
+  "y_col": "Machine failure",
+  "drop_cols": [
+    "UDI",
+    "Product ID",
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF",
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF"
+  ],
+  "feature_cols": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "data_path": "C:\\Users\\bahaa\\Desktop\\Neuer Ordner\\digitaltwin\\data\\ai4i2020.csv",
+  "model_path": "C:\\Users\\bahaa\\Desktop\\Neuer Ordner\\digitaltwin\\models\\pdm_pipeline.joblib",
+  "test_size": 0.2,
+  "random_state": 42
+}
