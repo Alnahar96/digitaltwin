@@ -1,3 +1,4 @@
 python -m src.models.train_model
 
+$env:PYTHONPATH = "$PWD"
 streamlit run src/app/app.py
